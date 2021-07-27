@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141E61;
+    text-align: center;
+}
+
+#clock{
+    /* text-shadow: #e0e0e0 1px 1px 0; */
+    font-size: 10vw;
+    text-align: center;
+    margin: 150px auto;
+
+}
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
