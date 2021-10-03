@@ -1,21 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #141E61;
-    text-align: center;
-}
-
-#clock{
-    /* text-shadow: #e0e0e0 1px 1px 0; */
-    font-size: 10vw;
-    text-align: center;
-    margin: 150px auto;
-
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background: #091921;
 }
 footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
-  }
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+#clock {
+  text-shadow: #e0e0e0 1px 1px 0;
+  color: wheat;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 15%;
+}
